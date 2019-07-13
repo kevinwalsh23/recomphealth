@@ -21,19 +21,18 @@ class App extends Component {
     render() {
       return (
         <div className="App">
-          <nav class="navbar bg-light titlefont">
-            <span class="navbar-brand mb-0 h1 titlefont">Recomp Health</span>
+          <nav className="navbar bg-light titlefont">
+            <span className="navbar-size-new mb-0 h1 titlefont">Recomp Health</span>
           </nav>
           <div className="container">
             <div className="row">
               <div className="col-12 m-1">
-                <h3 className="homefont"><b>The platform built to reward you for your healthy habits.</b></h3>
-                <p className="subfont">Recomp Health allows users to each cash back every day by logging their healthy habits in our app.</p>
+                <h1 className="homefont"><b>The platform built to reward you for your healthy habits.</b></h1>
+                <h5 className="subfont">Recomp Health allows users to earn cash back every day by logging their healthy habits in our app.</h5>
                 <div className="formstyle">
-                <form class="form-inline formstyle" onSubmit={(values) => this.handleSubmit(values)}>
-                  <label class="sr-only" for="inlineFormInputName2">Name</label>
-                  <input type="email" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Enter Email"/>              
-                  <button type="submit" class="btn btn-secondary rounded mb-2">Request Access</button>
+                <form className="form-inline formstyle" action="https://formspree.io/kevinwalsh23@gmail.com" method="POST">
+                  <input type="email" name="_replyto" className="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Enter Email"/>              
+                  <button type="submit" value="Send" className="btn btn-secondary rounded mb-2">Request Access</button>
                 </form>
                 </div>      
               </div>
