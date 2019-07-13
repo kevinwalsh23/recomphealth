@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Bungee);
+
 .App {
   text-align: center;
 }
@@ -6,6 +8,9 @@
   animation: none;
   height: 40vmin;
   pointer-events: none;
+  align-content: center;
+  align-self: center;
+  float: center;
 }
 
 .App-header {
@@ -16,11 +21,18 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: black;
+  color: purple;
 }
 
 .App-link {
   color: #122227;
+}
+
+.rounded {
+  border-radius: 150px;
+  background-color: purple !important;
+  color: white;
+  margin: 5px;
 }
 
 @keyframes App-logo-spin {
@@ -31,3 +43,59 @@
     transform: rotate(360deg);
   }
 }
+
+.homefont {
+  font-family: "Circular", "Open Sans", Arial, Helvetica, sans-serif;
+  margin-left: 10px;
+  margin-top: 25px;
+  margin-right: 10px;
+  font-size: 40;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.titlefont {
+  font-family: 'Bungee';
+  color: purple;
+  text-align: center;
+  float: center !important;
+  align-self: center !important;
+  justify-content: center !important;
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  align-content: center;
+  justify-content: center;
+  
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+.subfont {
+  font-family: "Circular", "Open Sans", Arial, Helvetica, sans-serif;    
+  font-size: 24;  
+  line-height: 1.5;
+  font-weight: 400;
+}
+.requeststyle {
+  background-color: purple;
+  color: purple;
+}
+.imagestyle {
+  align-items: center;
+  margin-bottom: 50px;
+}
+.formstyle {
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .imagestyle {
+      margin-bottom: 50px;
+  }
+}
+
