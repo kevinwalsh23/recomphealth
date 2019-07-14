@@ -26,7 +26,7 @@ class App extends Component {
           </nav>
           <div className="container">
             <div className="row">
-              <div className="col-12 m-1">
+              <div className="col-md m-1">
                 <h1 className="homefont"><b>The platform built to reward you for your healthy habits.</b></h1>
                 <h5 className="subfont">Recomp Health allows users to earn cash back every day by logging their healthy habits in our app.</h5>
                 <div className="formstyle">
@@ -36,7 +36,7 @@ class App extends Component {
                 </form>
                 </div>      
               </div>
-              <div className="col-12 m-1 imagestyle" >
+              <div className="col-md m-1 imagestyle" >
                 <img src={"fit.jpg"} className="App-logo imagestyle" alt="logo" />
               </div>
             </div>
