@@ -37,7 +37,7 @@ class App extends Component {
                 </div>      
               </div>
               <div className="col-md m-1 imagestyle" >
-                <img src={"fit.jpg"} className="App-logo imagestyle" alt="logo" />
+                <img src={"app1.png"} className="App-logo imagestyle" alt="logo" />
               </div>
             </div>
           </div>

@@ -6,7 +6,7 @@
 
 .App-logo {
   animation: none;
-  height: 40vmin;
+  
   pointer-events: none;
   align-content: center;
   align-self: center;
@@ -49,9 +49,9 @@
   margin-left: 10px;
   margin-top: 50px;
   margin-right: 10px;
-  font-size: 54 !important;
+  font-size: 72 !important;
   size: 100;  
-  font-weight: 700;
+  font-weight: 900;
   line-height: 1.1;
 }
 
@@ -105,3 +105,4 @@
 .navbar-size-new {
   font-size: 72 !important;
 }
+h1 {font-size: 54px!important;}
