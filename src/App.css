@@ -106,3 +106,7 @@
   font-size: 72 !important;
 }
 h1 {font-size: 54px!important;}
+
+@media (max-width: 990px) {
+  h1 {font-size: 36px!important;}
+}
