@@ -104,6 +104,7 @@
 @media (max-width: 768px) {
   .imagestyle {
     margin: 5px;
+    align-items: center;
   }
 
 }
