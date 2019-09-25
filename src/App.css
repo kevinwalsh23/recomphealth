@@ -3,7 +3,9 @@
 .App {
   text-align: center;
 }
-
+.textmargin {
+  margin-top: 25% !important;    
+}
 .App-logo {
   animation: none;
   
@@ -63,7 +65,7 @@
   align-self: center !important;
   justify-content: center !important;
   font-size: 72 !important;
-  margin-bottom: 25px;
+  
 }
 .navbar .navbar-nav {
   display: inline-block;
@@ -90,7 +92,9 @@
 }
 .imagestyle {
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
+  width: 70%;
+  height: 70%
 }
 .formstyle {
   align-content: center;
@@ -99,8 +103,9 @@
 }
 @media (max-width: 768px) {
   .imagestyle {
-    margin: 50px;
+    margin: 5px;
   }
+
 }
 .navbar-size-new {
   font-size: 72 !important;
@@ -109,4 +114,24 @@ h1 {font-size: 54px!important;}
 
 @media (max-width: 991px) {
   h1 {font-size: 36px!important;}
+  .textmargin {
+    margin-top: 5% !important;    
+  }
+  .imagestyle {
+    margin-top: 5% !important;
+  }
+
 }
+@media (max-width: 1199px) {
+  .textmargin {
+    margin-top: 10% !important;    
+  }
+
+
+}
+
+.secondary_screen {
+  background-color: #5a2fc2;
+  width: 100%;
+}
+
