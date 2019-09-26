@@ -32,7 +32,7 @@ class App extends Component {
                 <h5 className="subfont">Recomp Health allows users to earn cash back every day by logging their healthy habits in our app.</h5>
                 <div className="formstyle">
                 <form className="form-inline formstyle" action="https://formspree.io/kevinwalsh23@gmail.com" method="POST">
-                  <input type="email" name="_replyto" className="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Enter Email"/>              
+                  <input type="email" name="_replyto" className="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="name@company.com"/>              
                   <button type="submit" value="Send" className="btn btn-secondary rounded mb-2">Request Access</button>
                 </form>
                 </div>      
