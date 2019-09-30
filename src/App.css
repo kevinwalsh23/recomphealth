@@ -4,7 +4,7 @@
   text-align: center;
 }
 .textmargin {
-  margin-top: 25% !important;    
+  margin-top: 10% !important;    
 }
 .App-logo {
   animation: none;
@@ -112,7 +112,7 @@
 .navbar-size-new {
   font-size: 72 !important;
 }
-h1 {font-size: 54px!important;}
+h1 {font-size: 48px!important;}
 
 @media (max-width: 991px) {
   h1 {font-size: 36px!important;}
