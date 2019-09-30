@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
+import ReactGA from 'react-ga';
 
 const validEmail = (val) => /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(val);
 
@@ -10,6 +11,9 @@ class App extends Component {
 
     this.handleSubmit = this.handleSubmit.bind(this);
     }
+    componentWillMount() {
+      this.initializeReactGA();
+    }
     handleSubmit(values) {
       console.log("values: " + values)
 
@@ -17,6 +21,10 @@ class App extends Component {
       alert("Current State is: " + JSON.stringify(values));
       this.props.postFeedback(values);
       this.props.resetFeedbackForm();
+    }
+    initializeReactGA() {
+      ReactGA.initialize('UA-116537882-2');
+      ReactGA.pageview('/homepage');
     }  
     render() {
       return (
