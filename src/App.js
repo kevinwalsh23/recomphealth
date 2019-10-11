@@ -36,8 +36,8 @@ class App extends Component {
           <div className="container">
             <div className="row">
               <div className="col-md m-1">
-                <h1 className="homefont textmargin"><b>The platform built to help reward your employees with cash for staying healthy.</b></h1>
-                <h5 className="subfont">Employees earn cash for logging their workouts in our mobile app, and employers get healthier employees who are more productive, take fewer sick days, and have lower health insurance costs.</h5>
+                <h1 className="homefont textmargin"><b>Simplified employee health incentives that work.</b></h1>
+                <h5 className="subfont">Recomp Health helps companies provide effective health incentives to their employees, in a simple and streamlined process.</h5>
                 <div className="formstyle">
                 <form className="form-inline formstyle" action="https://formspree.io/kevinwalsh23@gmail.com" method="POST">
                   <input type="email" name="_replyto" className="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="name@company.com"/>              

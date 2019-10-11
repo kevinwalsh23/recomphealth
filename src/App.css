@@ -4,7 +4,7 @@
   text-align: center;
 }
 .textmargin {
-  margin-top: 10% !important;    
+  margin-top: 25% !important;    
 }
 .App-logo {
   animation: none;
@@ -48,10 +48,10 @@
 
 .homefont {
   font-family: "Circular", "Open Sans", Arial, Helvetica, sans-serif;
-  margin-left: 10px;
+  margin-left: 0px;
   margin-top: 50px;
-  margin-right: 10px;
-  font-size: 72 !important;
+  margin-right: 0px;
+  font-size: 64 !important;
   size: 100;  
   font-weight: 900;
   line-height: 1.1;
@@ -81,7 +81,7 @@
 }
 .subfont {
   font-family: "Circular", "Open Sans", Arial, Helvetica, sans-serif;    
-  font-size: 24 !important;  
+  font-size: 34 !important;  
   line-height: 1.5;
   font-weight: 400;
   margin: 2%;
@@ -112,7 +112,7 @@
 .navbar-size-new {
   font-size: 72 !important;
 }
-h1 {font-size: 48px!important;}
+h1 {font-size: 41px!important;}
 
 @media (max-width: 991px) {
   h1 {font-size: 36px!important;}
@@ -127,7 +127,7 @@ h1 {font-size: 48px!important;}
 }
 @media (max-width: 1199px) {
   .textmargin {
-    margin-top: 10% !important;    
+    margin-top: 20% !important;    
   }
 
 
