@@ -107,6 +107,9 @@
     align-items: center;
     width: 100%;
   }
+  .textmargin {
+    margin-top: 5% !important;    
+  }
 
 }
 .navbar-size-new {
@@ -115,7 +118,8 @@
 h1 {font-size: 41px!important;}
 
 @media (max-width: 991px) {
-  h1 {font-size: 36px!important;}
+  .h1 {font-size: 36px!important;}
+
   .textmargin {
     margin-top: 5% !important;    
   }
@@ -129,6 +133,7 @@ h1 {font-size: 41px!important;}
   .textmargin {
     margin-top: 20% !important;    
   }
+  .h1 {font-size: 36px!important;}
 
 
 }
