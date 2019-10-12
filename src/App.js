@@ -49,7 +49,37 @@ class App extends Component {
                 <img src={"rhprof.png"} className="App-logo imagestyle" alt="logo" />
               </div>
             </div>
+          
           </div>
+          <div className="whyrecomp">
+              <div>
+                <h1 className="whytext"><b>Why Recomp Health?</b></h1>   
+                <h4 className="whytext">Health incentives work, and employees are healthier, happier and more productive. Benefits include: </h4>
+                <h5 className="whybody">1. Up to 2.7x more productive everyday at work.</h5>
+                <h5 className="whybody">2. Take fewer sick days.</h5>
+                <h5 className="whybody">3. Lower Health Insurance payments.</h5>
+                <h5 className="whybody">4. Improved company culture.</h5>
+              </div>              
+          </div>
+          <div className="whyrecomp">
+              <div>
+                <h1 className="whytext"><b>The process is simple.</b></h1>   
+                <h4 className="whytext">Setting up health incentive programs can be difficult, Recomp Health takes all of the leg work out of this for you.</h4>
+                <h5 className="whybody">1. Employees download our mobile app.</h5>
+                <h5 className="whybody">2. Employees log their workouts in our app. (We verify all workouts with location services so you can be assured there is no cheating going on.)</h5>
+                <h5 className="whybody">3. Employees can cash out instantly.</h5>
+                <h5 className="whybody">4. At the end of the month, we send you a report of how many workouts your employees logged, and you make one payment to Recomp Health. </h5>
+              </div>              
+          </div>  
+          <div className="whyrecomp">
+              <div>
+                <h1 className="whytext"><b>Request an invite.</b></h1>                   
+                <form className="form-inline bottomformstyle" action="https://formspree.io/kevinwalsh23@gmail.com" method="POST">
+                  <input type="email" name="_replyto" className="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="name@company.com"/>              
+                  <button type="submit" value="Send" className="btn btn-secondary rounded mb-2 buttonstuff">Request Access</button>
+                </form>
+              </div>              
+          </div>  
         </div>
 
         </div>

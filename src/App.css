@@ -4,8 +4,23 @@
   text-align: center;
 }
 .textmargin {
-  margin-top: 25% !important;    
+  margin-top: 25% !important;      
 }
+.whyrecomp {
+  background-color: #5a2fc2;
+  color: white !important;
+  margin-bottom: 0% !important;  
+  text-align: justify !important;  
+  padding: 10% !important;
+}
+.whytext {
+  margin-left: 2% !important;
+}
+.whybody {
+  margin-left: 5% !important;
+  margin-top: 1.5% !important;
+}
+
 .App-logo {
   animation: none;
   
@@ -90,6 +105,10 @@
   background-color: #5a2fc2;
   color: #5a2fc2;
 }
+.buttonstuff {
+  background-color: white !important;
+  color: black !important;
+}
 .imagestyle {
   align-items: center;
   margin-bottom: 0px;
@@ -100,6 +119,11 @@
   align-content: center;
   justify-content: center;
   align-items: center;
+}
+.bottomformstyle {
+  align-content: center;
+  margin-left: 2% !important;
+  margin-top: 2% !important;
 }
 @media (max-width: 768px) {
   .imagestyle {
@@ -124,17 +148,18 @@ h1 {font-size: 41px!important;}
     margin-top: 5% !important;    
   }
   .imagestyle {
-    margin-top: 5% !important;
-    
+    margin-top: 5% !important;    
+  }
+  h1 {
+    font-size: 29px!important;
   }
 
 }
 @media (max-width: 1199px) {
   .textmargin {
-    margin-top: 20% !important;    
+    margin-top: 15% !important;    
   }
   .h1 {font-size: 36px!important;}
-
 
 }
 
