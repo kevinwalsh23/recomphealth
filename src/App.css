@@ -13,8 +13,18 @@
   text-align: justify !important;  
   padding: 10% !important;
 }
+.recompinvite {
+  background-color: #5a2fc2 !important;
+  color: white !important;
+  margin-bottom: 0% !important;  
+  padding: 10% !important;
+}
 .whytext {
   margin-left: 2% !important;
+}
+.whytext1 {
+  margin-left: 2% !important;
+  
 }
 .whybody {
   margin-left: 5% !important;
@@ -110,7 +120,7 @@
   color: black !important;
 }
 .imagestyle {
-  align-items: center;
+  align-items: center !important;  
   margin-bottom: 0px;
   width: 70%;
   height: 70%
@@ -130,9 +140,35 @@
     margin: 5px;
     align-items: center;
     width: 100%;
+    justify-content: flex-end !important;
   }
   .textmargin {
     margin-top: 5% !important;    
+  }
+  .whyrecomp {
+    background-color: #5a2fc2;
+    color: white !important;
+    margin-bottom: 0% !important;      
+    padding: 5% !important;    
+    
+  }
+
+  .whytext {
+    margin-left: 2% !important;
+    margin-bottom: 5% !important;
+  }
+  .whytext1 {
+    margin-left: 2% !important;
+    margin-bottom: 5% !important;
+    text-align: left !important;
+    font-size: 20px !important;
+  }
+  .whybody {
+    margin-left: 5% !important;
+    margin-top: 3.5% !important;
+    font-size: 18px !important;
+    text-align: left !important;
+    
   }
 
 }
