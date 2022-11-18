@@ -10,7 +10,7 @@
     "react-dom": "^16.8.6",
     "react-ga": "^2.7.0",
     "react-redux-form": "^1.16.14",
-    "react-scripts": "3.0.1",
+    "react-scripts": "5.0.1",
     "redux": "^4.0.4"
   },
   "scripts": {
